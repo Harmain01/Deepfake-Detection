@@ -48,6 +48,7 @@ The dataset was split to ensure robust model training and evaluation. We employe
 
 ## Result 
 The final model achieved an accuracy of over 96% on the validation set. The confusion matrix from the model testing shows high precision and recall rates.
+
 ![model_accuracy](https://github.com/user-attachments/assets/37422e30-51c1-45d8-be2b-127357a57831)
 ![model_loss](https://github.com/user-attachments/assets/42594b29-a7f3-45ad-be04-dc2234c73acd)
 ![confusion_matrix](https://github.com/user-attachments/assets/4f58e96b-7c1d-4a30-bc85-90e9952f3261)
