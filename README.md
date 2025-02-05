@@ -1,7 +1,10 @@
 # DeepFake Detection using VGG16
 ## Overview
 The DeepFake Detection project focuses on identifying and analyzing deepfake videos using advanced machine learning techniques. As deepfake technology evolves, it poses significant risks, such as spreading misinformation, manipulating public opinion, and infringing on personal privacy. The impact of deepfakes can be profound, leading to a loss of trust in media and potential harm to individuals whose likenesses are misused. By developing effective detection tools, this project aims to combat these challenges, helping to create a safer digital environment where people can trust the authenticity of the content they consume.
-![image](https://github.com/user-attachments/assets/4c3ce79c-b253-455e-92ab-94a2b95a91f0)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4c3ce79c-b253-455e-92ab-94a2b95a91f0" alt="Overview Image">
+</p>
 
 ## Technnologies Used
 - Python
@@ -39,8 +42,9 @@ In our DeepFake Detection project, we utilize the **VGG16** architecture, a deep
 
 - **Transfer Learning**: VGG16 is often pre-trained on a large dataset, ImageNet, allowing it to use learned features for new tasks. In our project, we fine-tune the pre-trained model on our specific dataset of real and deepfake videos to improve classification performance.
 
-![VGG16 Architecture](https://github.com/user-attachments/assets/a3e202cf-d3d6-417a-bf76-22e8137029bb)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3e202cf-d3d6-417a-bf76-22e8137029bb" alt="VGG16 Architecture">
+</p>
 
 ## Training Process
 
@@ -49,8 +53,18 @@ The dataset was split to ensure robust model training and evaluation. We employe
 ## Result 
 The final model achieved an accuracy of over 96% on the validation set. The confusion matrix from the model testing shows high precision and recall rates.
 
-![model_accuracy](https://github.com/user-attachments/assets/37422e30-51c1-45d8-be2b-127357a57831)
-![model_loss](https://github.com/user-attachments/assets/42594b29-a7f3-45ad-be04-dc2234c73acd)
-![confusion_matrix](https://github.com/user-attachments/assets/4f58e96b-7c1d-4a30-bc85-90e9952f3261)
-![Screenshot (3)](https://github.com/user-attachments/assets/806fbc71-8f51-4781-9873-61cb87e02246)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/37422e30-51c1-45d8-be2b-127357a57831" alt="Model Accuracy">
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42594b29-a7f3-45ad-be04-dc2234c73acd" alt="Model Loss">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f58e96b-7c1d-4a30-bc85-90e9952f3261" alt="Confusion Matrix">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/806fbc71-8f51-4781-9873-61cb87e02246" alt="Screenshot">
+</p>
